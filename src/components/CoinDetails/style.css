@@ -1,0 +1,53 @@
+main {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    margin: 35px 0;
+}
+
+.image-container img {
+    max-width: 150px;
+}
+
+.name-symbol-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.description-container {
+    width: 80%;
+    height: auto;
+    color: #232931;
+}
+
+.btn-go-back {
+    padding: 0.6rem;
+    width: 200px;
+    background: #4ECCA3;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8rem;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-go-back:hover {
+    letter-spacing: 1px;
+    transform: scale(1.1);
+}
+
+.btn-go-back:active {
+    transform: scale(0.9);
+}

@@ -1,0 +1,19 @@
+.carousel-container {
+    width: 100%;
+    height: 30vh;
+    display: grid;
+    place-items: center;
+    background: #393E46;
+}
+
+.carousel {
+    position: relative;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    height: auto;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}

@@ -1,0 +1,66 @@
+.carousel-coin {
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+    min-width: 250px;
+    background: #EEEEEE;
+    margin: 0 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: scroll linear infinite 30s;
+    transition: all 0.2s ease;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(calc(-250px * 10));
+    }
+    100% {
+        transform: translateX(calc(250px * 10));
+    }
+}
+
+.carousel-coin:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.carousel-coin-name-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.carousel-coin-image {
+    max-width: 40px;
+    height: auto;
+    margin: 0 15px;
+}
+
+.carousel-coin-name {
+    font-size: 120%;
+}
+
+.carousel-coin-price {
+    font-size: 110%;
+}
+
+.carousel-coin-infos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.carousel-coin-percentage-red {
+    color: #ff0000;
+}
+
+.carousel-coin-percentage-green {
+    color: #00ff00;
+}

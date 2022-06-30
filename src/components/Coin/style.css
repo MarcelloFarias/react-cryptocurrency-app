@@ -1,0 +1,51 @@
+.coin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    margin: 5px 0;
+    background: #393E46;
+    color: #eee;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.coin:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.coin-name-image {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.coin-image {
+    max-width: 40px;
+    margin: 0 10px;
+}
+
+.coin-percentage-red {
+    color: #ff0000;
+}
+
+.coin-percentage-green {
+    color: #00ff00;
+}
+
+@media only screen and (max-width: 730px) {
+    .coin {
+        font-size: 0.9rem;
+    }
+    
+    .coin-image {
+        max-width: 20px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .coin {
+        font-size: 0.8rem;
+    }
+}
